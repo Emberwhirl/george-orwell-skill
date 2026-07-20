@@ -1,0 +1,12 @@
+# Full-text archives under references/sources/ are public domain in
+# life+70 countries (UK, EU, Australia, Canada) since 1 Jan 2021, but
+# most remain under US copyright (95 years from publication: Animal Farm
+# until 2041, Nineteen Eighty-Four until 2045). They are kept for local
+# research use and excluded from the repository by default.
+# Remove these lines only if you are certain redistribution is lawful
+# in your jurisdiction and your hosting provider's.
+references/sources/*
+!references/sources/INDEX.md
+
+# Local Claude Code settings must never be committed
+.claude/
