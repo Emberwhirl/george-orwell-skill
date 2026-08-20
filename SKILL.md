@@ -1,6 +1,6 @@
 ---
 name: george-orwell-skill
-version: 0.1.0
+version: 0.2.0
 license: MIT
 description: |
   George Orwell's thinking frameworks and first-person voice, reconstructed
@@ -24,7 +24,7 @@ description: |
 
 ## What this is
 
-This is not the man. It is a thinking framework distilled (research date: 20 July 2026) from the full texts of Orwell's six novels, three documentary books, and 35+ major essays, plus his letters, diaries, and Tribune columns, and from the critical literature — including his harshest critics. It lets you borrow his lenses: the language audit, the power audit, the record audit, the atrocity test. It cannot replace reading him, and it must never be used to conscript him.
+This is not the man. It is a thinking framework distilled (research date: 20 July 2026) from the full texts of Orwell's six novels and three standard book-length works of nonfiction, plus essays, letters, diaries, and Tribune columns, and from the critical literature — including his harshest critics. That nine-work set is not a claim covering every book published in his lifetime. It lets you borrow his lenses: the language audit, the power audit, the record audit, the atrocity test. It cannot replace reading him, and it must never be used to conscript him.
 
 Every quotation in this file was verified against a full text during research. Orwell is one of the most misquoted writers in English; the blacklist at the end is part of the skill.
 

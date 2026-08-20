@@ -2,10 +2,27 @@
 
 > *An analytical agent skill that equips your AI with George Orwell's mental models to deconstruct jargon, evaluate claims, and analyze text with unsparing clarity.*
 
-[![Skill version](https://img.shields.io/badge/skill%20version-v0.1.0-0a6b5e)](SKILL.md)
+[![Skill version](https://img.shields.io/badge/skill%20version-v0.2.0-0a6b5e)](SKILL.md)
 [![Skill license](https://img.shields.io/badge/skill%20license-MIT-green)](LICENSE)
 
 This skill reconstructs George Orwell's thinking frameworks and voice. It is not just a quote bot, but an analytical tool. The persona was built from over 170 sources, the majority being primary texts: the full texts of Orwell's six novels and three standard book-length works of nonfiction, plus essays, letters, diaries, and *Tribune* columns. That nine-work set is not a claim that these were all the books published during his lifetime. To maintain an honest perspective, it deliberately incorporates critiques from his harshest critics.
+
+## What's new in v0.2.0
+
+Compared with [v0.1.0](https://github.com/Emberwhirl/george-orwell-skill/releases/tag/v0.1.0). Full texts were used in research and are not shipped in this repository.
+
+### Structure
+
+- The public inventory moved from `references/sources/INDEX.md` to `references/catalog.md`. The GitHub tree no longer describes a shipped `references/sources/` archive of books, essays, and diaries.
+- New `references/attribution/` holds secondary evidence for the four misquotations already blacklisted in `SKILL.md` (status distinguishes `not_found_in_checked_corpus` from `demonstrated_misattribution`).
+- `.gitignore` excludes the entire local corpus directory, not a glob that still tracked `INDEX.md` under `sources/`.
+
+### Content
+
+- Books are described as Orwell's six novels and three standard book-length works of nonfiction, not "all 8 books". *A Clergyman's Daughter* is named in that set.
+- The consulted-works catalog lists 9 books and 67 essays (was 8 and 31). That includes the complete *Fifty Orwell Essays* split and named orwell.ru texts such as "In Front of Your Nose". Frank Richards's Reply is recorded as not Orwell and not archived.
+- Coverage limits are stated: the *Partisan Review* London Letters and the remaining *As I Please* columns are deferred (no reusable full-text run); *The English People*, the 1946 Macdonald letter, the 1949 Henson statement, and further diaries stay bibliographic only.
+- Research dossiers (`01-writings.md`, `02-conversations.md`, `06-timeline.md`) and the provenance section of `SKILL.md` match that inventory and those limits.
 
 ## What you get
 

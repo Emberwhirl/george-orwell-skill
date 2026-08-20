@@ -1,6 +1,6 @@
 # George Orwell — works consulted
 
-Inventory of primary works used to build this skill (research date 20 July 2026; inventory updated 2026-08-20).
+Inventory of primary works used to build this skill (research date 20 July 2026; inventory updated 2026-08-20 for skill v0.2.0).
 Archive filenames in the tables identify the local research copies. **Those full texts are not included in this repository.**
 
 Listed books, essays, columns, and letters/diaries are English-language **[PRIMARY]** texts — Orwell's own words as transmitted by the named archive site. Secondary evidence for circulating misquotations lives in `references/attribution/`.
