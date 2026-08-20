@@ -1,0 +1,18 @@
+id: journalism-public-relations
+classification: secondary
+quote: "Journalism is printing what someone else does not want printed: everything else is public relations."
+normalized_quote: journalism is printing what someone else does not want printed everything else is public relations
+attributed_to: George Orwell
+status: demonstrated_misattribution
+claimed_source: "Circulated as Orwell; no Orwell work identified"
+primary_source_match: none
+earliest_located_attribution: "Saying predates Orwell (attested 1918); no Orwell source located"
+secondary_evidence:
+  - "SKILL.md misattribution blacklist item 4."
+  - "The proverbial journalism/public-relations contrast is attested before Orwell's career."
+notes: >
+  Demonstration is pre-Orwell attestation plus lack of any identified Orwell
+  source, not a corpus-miss by itself. A parallel record that only searched
+  this archive and stopped would have to use not_found_in_checked_corpus.
+confidence: high
+last_checked: "2026-08-20"

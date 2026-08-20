@@ -1,0 +1,19 @@
+id: universal-deceit
+classification: secondary
+quote: "In a time of universal deceit, telling the truth is a revolutionary act."
+normalized_quote: in a time of universal deceit telling the truth is a revolutionary act
+attributed_to: George Orwell
+status: demonstrated_misattribution
+claimed_source: "Often claimed as Orwell; no work or date given"
+primary_source_match: none
+earliest_located_attribution: "1982 (decades after Orwell's death in 1950)"
+secondary_evidence:
+  - "SKILL.md misattribution blacklist item 1, research date 2026-07-20."
+  - "Quote Investigator / Snopes-style investigations cited in references/research/03-expression-dna.md treat the line as apocryphal."
+  - "No match in this archive's primary texts was used as the demonstration; the demonstration is the post-1950 first attribution plus the absence of any located Orwell source in the secondary literature."
+notes: >
+  Seed case. A failed corpus search alone would have been recorded as
+  not_found_in_checked_corpus. The misattribution call rests on the documented
+  late first attribution, not on silence in the checked files.
+confidence: high
+last_checked: "2026-08-20"

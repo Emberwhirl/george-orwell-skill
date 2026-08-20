@@ -1,0 +1,19 @@
+id: rough-men
+classification: secondary
+quote: "People sleep peaceably in their beds at night only because rough men stand ready to do violence on their behalf."
+normalized_quote: people sleep peaceably in their beds at night only because rough men stand ready to do violence on their behalf
+attributed_to: George Orwell
+status: paraphrase_circulated_as_quotation
+claimed_source: "Circulated as a direct Orwell quotation"
+primary_source_match: "related_wording_in_notes_on_nationalism_and_rudyard_kipling"
+earliest_located_attribution: "Richard Grenier, 1993 paraphrase"
+secondary_evidence:
+  - "SKILL.md misattribution blacklist item 3."
+  - "Grenier 1993 paraphrase of Orwellian themes, not a documented Orwell sentence."
+notes: >
+  Related verified wording: "Those who 'abjure' violence can only do so because
+  others are committing violence on their behalf" ("Notes on Nationalism", 1945);
+  a kindred passage is in "Rudyard Kipling" (1942). Those are genuine Orwell
+  sentences; the 'rough men' form is not.
+confidence: high
+last_checked: "2026-08-20"

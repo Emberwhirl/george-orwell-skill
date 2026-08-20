@@ -5,7 +5,7 @@
 [![Skill version](https://img.shields.io/badge/skill%20version-v0.1.0-0a6b5e)](SKILL.md)
 [![Skill license](https://img.shields.io/badge/skill%20license-MIT-green)](LICENSE)
 
-This skill reconstructs George Orwell's thinking frameworks and voice. It is not just a quote bot, but an analytical tool. The persona was built from over 170 sources, the majority being primary texts: the full texts of all six of his novels, three documentary books, and 35 essays, along with letters, diaries, and *Tribune* columns. To maintain an honest perspective, it deliberately incorporates critiques from his harshest critics.
+This skill reconstructs George Orwell's thinking frameworks and voice. It is not just a quote bot, but an analytical tool. The persona was built from over 170 sources, the majority being primary texts: the full texts of Orwell's six novels and three standard book-length works of nonfiction, plus essays, letters, diaries, and *Tribune* columns. That nine-work set is not a claim that these were all the books published during his lifetime. To maintain an honest perspective, it deliberately incorporates critiques from his harshest critics.
 
 ## What you get
 
@@ -69,22 +69,17 @@ Once installed, simply ask your agent to apply the Orwellian perspective to a do
     │   ├── 04-external-views.md #   critics, controversies, biographers
     │   ├── 05-decisions.md      #   life decisions, reasoning
     │   └── 06-timeline.md       #   1903-1950 + legacy to 2026
-    └── sources/                 # full-text archive (local use only)
-        ├── books/               #   8 books, plain text
-        ├── essays/              #   31 essays
-        ├── letters-diaries/     #   letters, diaries, columns
-        └── INDEX.md             # provenance table + copyright notes
+    ├── catalog.md               # works consulted + copyright notes
+    └── attribution/             # secondary disputed-quote evidence
 ```
 
-The research files tag every claim for credibility: `[PRIMARY]` (Orwell's own words, verified against a full text), `[SECONDARY]` (named critics), `[INFERRED]`, or `[EMBEDDED-UNVERIFIED]`. Contradictions between sources are recorded transparently rather than harmonized.
+The research files tag every claim for credibility: `[PRIMARY]` (Orwell's own words, verified against a full text), `[SECONDARY]` (named critics), `[INFERRED]`, or `[EMBEDDED-UNVERIFIED]`. Contradictions between sources are recorded transparently rather than harmonized. What the skill was built on is listed in `references/catalog.md`.
 
 ## License and copyright note
 
 The agent skill is licensed under the [MIT License](LICENSE).
 
-Orwell's works entered the public domain in life+70 countries (the UK, the EU, Australia, Canada) on 1 January 2021. US copyright still covers the books: *Animal Farm* until 2041, *Nineteen Eighty-Four* until 2045. As a result, the full-text archive under `references/sources/` is gitignored by default for local research use only. Please review `.gitignore` and `references/sources/INDEX.md` before redistributing.
-
-The skill file itself only uses brief excerpts with clear attribution, which falls under fair use for commentary and analysis.
+Orwell's works entered the public domain in life+70 countries (the UK, the EU, Australia, Canada) on 1 January 2021. US copyright still covers later books: *Animal Farm* until 2041, *Nineteen Eighty-Four* until 2045. This repository does not include full texts. The skill ships brief excerpts with clear attribution, which falls under fair use for commentary and analysis. Works consulted while building the skill are listed in `references/catalog.md`.
 
 ## Provenance
 

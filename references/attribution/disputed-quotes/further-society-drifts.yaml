@@ -1,0 +1,16 @@
+id: further-society-drifts
+classification: secondary
+quote: "The further a society drifts from the truth, the more it will hate those who speak it."
+normalized_quote: the further a society drifts from the truth the more it will hate those who speak it
+attributed_to: George Orwell
+status: demonstrated_misattribution
+claimed_source: "Circulated as Orwell"
+primary_source_match: none
+earliest_located_attribution: "Selwyn Duke, 2009"
+secondary_evidence:
+  - "SKILL.md misattribution blacklist item 2."
+  - "Attributed to Selwyn Duke (2009) in the skill's verification notes (Quote Investigator / Snopes)."
+notes: >
+  Positive alternate authorship, not merely 'not found in the Orwell files we have'.
+confidence: high
+last_checked: "2026-08-20"
