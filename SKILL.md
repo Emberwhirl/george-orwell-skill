@@ -268,7 +268,7 @@ Research date: 20 July 2026. Full research files with per-claim credibility tags
 ### Primary sources (Orwell's own words, full texts fetched and quote-verified)
 - Orwell's six novels and three standard book-length works of nonfiction (Project Gutenberg Australia plain-text editions), including *A Clergyman's Daughter*, *Nineteen Eighty-Four*, *Animal Farm*, *Homage to Catalonia*, *The Road to Wigan Pier*, *Down and Out in Paris and London*. That set is not a claim covering every book published in his lifetime.
 - Essays and columns (Gutenberg Australia "Fifty Orwell Essays"; orwell.ru), including "Politics and the English Language", "Why I Write", "Notes on Nationalism", "The Freedom of the Press", "Looking Back on the Spanish War", "In Front of Your Nose", and the archived *As I Please* sets. See `references/catalog.md` for the current inventory.
-- Letters and statements: to Noel Willmett (18 May 1944), to Dwight Macdonald (Dec 1946), the BBC resignation letter (24 Sep 1943), letters to Celia Kirwan (1949), the Henson statement (June 1949); wartime diary entries (Orwell Diaries project, Davison edition); London Letters (Partisan Review scans).
+- Letters and statements: to Noel Willmett (18 May 1944), to Dwight Macdonald (Dec 1946), the BBC resignation letter (24 Sep 1943), letters to Celia Kirwan (1949), the Henson statement (June 1949); wartime diary entries (Orwell Diaries project, Davison edition); London Letters (verified against Partisan Review facsimile scans; full-text run explicitly deferred from the local archive).
 
 ### Secondary sources (named critics and biographers)
 - Biography: Crick (1980), Shelden (1991), Bowker (2003), Taylor (2003, 2023), Funder (2023), Lynskey (2019), Davison's apparatus.

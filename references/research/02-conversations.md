@@ -9,6 +9,8 @@
 
 ## 1. "As I Please" — Tribune columns, Dec 1943 to Feb 1945 (resumed Nov 1946 - Apr 1947)
 
+**Note on archive coverage:** The local archive contains a four-part selection of 31 dated columns. The remaining *Tribune* columns are explicitly deferred; they lack a reliable, reusable full-text source. The examples below are verified against existing full texts or public facsimiles.
+
 His most improvisational form: a weekly column of 3-6 unconnected items separated by dots, moving without transition from geopolitics to rose bushes to reader quizzes.
 
 **The very first column (3 Dec 1943) opens as reported dialogue, not argument** — a drunk American soldier in a tobacconist's shop: "Soldier: 'Wharrishay is, perfijious Albion. You heard that? Perfijious Albion. Never trust a Britisher.' / Orwell: 'Can't trust them with what?'" He then generalises: "it is difficult to go anywhere in London without having the feeling that Britain is now Occupied Territory," and turns the item into a plea against censorship-by-tact: "it is just because one does want a good relationship between the two countries that one wants plain speaking." [PRIMARY — As I Please, Tribune, 3 Dec 1943, full text verified]
@@ -28,6 +30,8 @@ His most improvisational form: a weekly column of 3-6 unconnected items separate
 ---
 
 ## 2. London Letters to Partisan Review (1941-46): auditing his own predictions
+
+**Note on archive coverage:** The *London Letters* series is explicitly deferred; no reliable, reusable full-text source is available in the local archive. The examples below are verified against external public facsimiles (e.g., BU scan archive).
 
 Fifteen "London Letters" to the New York quarterly, spring 1941 to summer 1946. The critical document is the **London Letter in Partisan Review, Winter 1945 (vol. 12 no. 1, written Dec 1944)**, where he formally audits his own record — verified against the BU scan of the printed issue:
 
