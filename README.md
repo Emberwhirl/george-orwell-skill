@@ -2,27 +2,10 @@
 
 > *An analytical agent skill that equips your AI with George Orwell's mental models to deconstruct jargon, evaluate claims, and analyze text with unsparing clarity.*
 
-[![Skill version](https://img.shields.io/badge/skill%20version-v0.2.0-0a6b5e)](SKILL.md)
+[![Skill version](https://img.shields.io/badge/skill%20version-v0.3.0-0a6b5e)](SKILL.md)
 [![Skill license](https://img.shields.io/badge/skill%20license-MIT-green)](LICENSE)
 
 This skill reconstructs George Orwell's thinking frameworks and voice. It is not just a quote bot, but an analytical tool. The persona was built from over 170 sources, the majority being primary texts: the full texts of Orwell's six novels and three standard book-length works of nonfiction, plus essays, letters, diaries, and *Tribune* columns. That nine-work set is not a claim that these were all the books published during his lifetime. To maintain an honest perspective, it deliberately incorporates critiques from his harshest critics.
-
-## What's new in v0.2.0
-
-Compared with [v0.1.0](https://github.com/Emberwhirl/george-orwell-skill/releases/tag/v0.1.0). Full texts were used in research and are not shipped in this repository.
-
-### Structure
-
-- The public inventory moved from `references/sources/INDEX.md` to `references/catalog.md`. The GitHub tree no longer describes a shipped `references/sources/` archive of books, essays, and diaries.
-- New `references/attribution/` holds secondary evidence for the four misquotations already blacklisted in `SKILL.md` (status distinguishes `not_found_in_checked_corpus` from `demonstrated_misattribution`).
-- `.gitignore` excludes the entire local corpus directory, not a glob that still tracked `INDEX.md` under `sources/`.
-
-### Content
-
-- Books are described as Orwell's six novels and three standard book-length works of nonfiction, not "all 8 books". *A Clergyman's Daughter* is named in that set.
-- The consulted-works catalog lists 9 books and 67 essays (was 8 and 31). That includes the complete *Fifty Orwell Essays* split and named orwell.ru texts such as "In Front of Your Nose". Frank Richards's Reply is recorded as not Orwell and not archived.
-- Coverage limits are stated: the *Partisan Review* London Letters and the remaining *As I Please* columns are deferred (no reusable full-text run); *The English People*, the 1946 Macdonald letter, the 1949 Henson statement, and further diaries stay bibliographic only.
-- Research dossiers (`01-writings.md`, `02-conversations.md`, `06-timeline.md`) and the provenance section of `SKILL.md` match that inventory and those limits.
 
 ## What you get
 
@@ -30,6 +13,7 @@ Compared with [v0.1.0](https://github.com/Emberwhirl/george-orwell-skill/release
 - **10 decision heuristics** — Each anchored to a real historical choice, such as the POUM reversal or the BBC resignation.
 - **Expression DNA** — Synthesized from ~30,000 words of essays to accurately capture his opening gambits, sentence statistics, humour rules, and verbal tics.
 - **An agentic answer workflow** — The persona researches before it pronounces. It fetches the document, checks the historical record, finds the numbers, and then judges.
+- **A plain-style writing workshop** — The editing method of "Politics and the English Language", turned into a procedure: diagnose the stale phrases, rewrite in the author's own voice, verify nothing true was lost. Comes with a drop-in ruleset for reader-facing agent prose (`references/plain-style.md`).
 - **A verified quotes library and misattribution blacklist** — Every quotation is string-verified against a full text. The skill also names and corrects the four most commonly circulated fake Orwell quotes.
 - **Honest boundaries** — Orwell died in 1950. The skill explicitly marks any post-1950 judgments as inference and refuses to play the "Orwell would have supported X" game.
 
@@ -73,6 +57,14 @@ Once installed, simply ask your agent to apply the Orwellian perspective to a do
 "What would the George Orwell say about this document?"
 ```
 
+```text
+"Rewrite this release note in plain English, Orwell's way."
+```
+
+```text
+"Give me Orwell-inspired writing rules I can paste into my AGENTS.md."
+```
+
 ## Repository layout
 
 ```text
@@ -86,6 +78,8 @@ Once installed, simply ask your agent to apply the Orwellian perspective to a do
     │   ├── 04-external-views.md #   critics, controversies, biographers
     │   ├── 05-decisions.md      #   life decisions, reasoning
     │   └── 06-timeline.md       #   1903-1950 + legacy to 2026
+    ├── plain-style.md           # the writing workshop: rules, swindle
+    │                            #   catalogue, procedure, house ruleset
     ├── catalog.md               # works consulted + copyright notes
     └── attribution/             # secondary disputed-quote evidence
 ```
@@ -100,10 +94,30 @@ Orwell's works entered the public domain in life+70 countries (the UK, the EU, A
 
 ## Provenance
 
-Research date: 20 July 2026. 
+Initial research date: 20 July 2026. 
 
 This skill was built using a parallel research process across Project Gutenberg Australia, orwell.ru, the Orwell Diaries project, Wikisource, telelib, Partisan Review scans, and critical texts. Quote-aggregator sites were strictly banned as sources.
 
 ## Acknowledgements
 
-The skill was built with [Nuwa Skill](https://github.com/alchaincyf/nuwa-skill).
+The skill was initially built with [Nuwa Skill](https://github.com/alchaincyf/nuwa-skill).
+
+## Changelog
+
+### v0.3.0
+
+Adds a **Writing Workshop** for the job the 1946 essay was written for: making someone else's prose clearer, not sounding like Orwell. The skill reads the whole text, names each stale phrase by class, rewrites in the author's register, and checks that no fact or needed qualification was lost.
+
+- New `references/plain-style.md`: six rules and writer's questions, string-verified, with variants recorded; 1946 vices beside modern and machine-prose habits.
+- A paste-in **house-style ruleset** for reader-facing agent prose; labeled as a modern adaptation, not Orwell's text.
+- Triggers on Orwell-invoked plain-style edits and Orwell-inspired agent writing standards. Generic writing-improvement requests still do not.
+
+### v0.2.0
+
+- Inventory moved from `references/sources/INDEX.md` to `references/catalog.md`. The GitHub tree no longer describes a shipped `sources/` archive.
+- `references/attribution/` holds secondary evidence for the four blacklisted misquotations (`not_found_in_checked_corpus` vs `demonstrated_misattribution`).
+- `.gitignore` excludes the whole local corpus directory.
+- Books: six novels and three standard book-length works of nonfiction, not "all 8 books" (*A Clergyman's Daughter* is in the set).
+- Catalog: 9 books and 67 essays (was 8 and 31), including the complete *Fifty Orwell Essays* split. Frank Richards's Reply is not Orwell and is not archived.
+- Deferred: *Partisan Review* London Letters and remaining *As I Please* columns. Bibliographic only: *The English People*, the 1946 Macdonald letter, the 1949 Henson statement, further diaries.
+- Research dossiers (`01-writings.md`, `02-conversations.md`, `06-timeline.md`) and `SKILL.md` provenance match that inventory and those limits.
