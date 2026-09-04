@@ -1,0 +1,4 @@
+{
+  "name": "george-orwell-skill",
+  "install": "bash .cursor/install.sh"
+}
