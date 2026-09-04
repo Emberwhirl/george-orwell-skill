@@ -2,7 +2,7 @@
 
 > *An analytical agent skill that equips your AI with George Orwell's mental models to deconstruct jargon, evaluate claims, and analyze text with unsparing clarity.*
 
-[![Skill version](https://img.shields.io/badge/skill%20version-v0.3.2-0a6b5e)](SKILL.md)
+[![Skill version](https://img.shields.io/badge/skill%20version-v0.3.3-0a6b5e)](SKILL.md)
 [![Skill license](https://img.shields.io/badge/skill%20license-MIT-green)](LICENSE)
 
 This skill reconstructs George Orwell's thinking frameworks and voice. It is not just a quote bot, but an analytical tool. The persona was built from over 170 sources, the majority being primary texts: the full texts of Orwell's six novels and three standard book-length works of nonfiction, plus essays, letters, diaries, and *Tribune* columns. That nine-work set is not a claim that these were all the books published during his lifetime. To maintain an honest perspective, it deliberately incorporates critiques from his harshest critics.
@@ -103,6 +103,13 @@ This skill was built using a parallel research process across Project Gutenberg 
 The skill was initially built with [Nuwa Skill](https://github.com/alchaincyf/nuwa-skill).
 
 ## Changelog
+
+### v0.3.3
+
+Second patch release for [issue #1](https://github.com/Emberwhirl/george-orwell-skill/issues/1).
+
+- Four-letter-word ratio restated from a full recount: 54–66% per essay, 59% overall, across 67 essay texts. Method and per-group figures recorded in `references/research/03-expression-dna.md`.
+- Timeline research file: reception of *Homage to Catalonia* now carries the primary-text *Daily Worker* quotations and marks two circulating claims (a personal "Trotskyist agent" attack; "remaindered") as unsupported.
 
 ### v0.3.2
 
